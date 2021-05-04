@@ -4,7 +4,7 @@ import 'package:tasks/widgets/task_widget.dart';
 
 class TaskGridScreen extends StatelessWidget {
   final List _tasks = [];
-  String _tskName = 'ts';
+  String _tskName = 'a';
 
   final DateTime _startDate = DateTime.now();
   DateTime _endDate;

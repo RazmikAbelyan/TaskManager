@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:tasks/widgets/task_widget.dart';
 
 class TaskScreen extends StatelessWidget {
-  TaskScreen(this.tskName);
 
-  String tskName;
+  final String tskName;
+
+  TaskScreen(this.tskName);
 
   @override
   Widget build(BuildContext context) {
